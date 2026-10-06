@@ -1,0 +1,25 @@
+# Never bake secrets or local state into the image.
+.env
+.env.*
+*.env
+
+# Local auth captures and scratch files
+tok.tmp
+*.tmp
+login.json
+
+# Local databases
+instance/
+*.db
+*.sqlite3
+
+# Python noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Tests and scratch
+tests/
+.tmp-*/
