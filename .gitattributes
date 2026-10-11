@@ -1,0 +1,5 @@
+# Shell scripts must keep LF endings, or the Linux container cannot execute
+# them ("bad interpreter: /usr/bin/env bash^M"). This repo is developed on
+# Windows, where git otherwise converts LF to CRLF on checkout.
+*.sh text eol=lf
+Dockerfile text eol=lf

@@ -1,0 +1,299 @@
+Vinta OS -- USB kit build
+  Project : E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main
+  Python  : 3.14.6  (E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\.buildenv\Scripts\python.exe)
+  Output  : E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\USB
+
+==> Frontend: building the user interface
+  Reusing the existing dist/ build.
+
+==> Fonts: making the app self-contained and offline-correct
+  $ E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\.buildenv\Scripts\python.exe E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\packaging\selfhost_fonts.py --dist E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\vinta-school-os\dist
+  Fetching font CSS from Google Fonts...
+  Downloaded 0 font files (0 KB)
+  index.html is already self-contained.
+
+==> Application: freezing to an executable
+  $ E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\.buildenv\Scripts\python.exe -m PyInstaller E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\vinta_os.spec --noconfirm --clean --distpath E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\app --workpath E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\app
+110 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+111 INFO: Python: 3.14.6
+136 INFO: Platform: Windows-11-10.0.26200-SP0
+136 INFO: Python environment: E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\.buildenv
+138 INFO: Removing temporary files and cleaning cache in C:\Users\nekka\AppData\Local\pyinstaller
+356 INFO: Module search paths (PYTHONPATH):
+['E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\python314.zip',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\DLLs',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\Lib',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314',
+ 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv',
+ 'E:\\vinta-os-1.6.3.2-main '
+ '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages',
+ 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit',
+ 'E:\\vinta-os-1.6.3.2-main '
+ '(1)\\vinta-os-1.6.3.2-main\\Backend\\vinta-academy-backend']
+596 INFO: Appending 'datas' from .spec
+598 INFO: checking Analysis
+598 INFO: Building Analysis because Analysis-00.toc is non existent
+598 INFO: Looking for Python shared library...
+598 INFO: Using Python shared library: C:\Users\nekka\AppData\Local\Programs\Python\Python314\python314.dll
+598 INFO: Running Analysis Analysis-00.toc
+598 INFO: Target bytecode optimization level: 0
+598 INFO: Initializing module dependency graph...
+603 INFO: Initializing module graph hook caches...
+610 INFO: Analyzing modules for base_library.zip ...
+1761 INFO: Processing standard module hook 'hook-encodings.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+2135 INFO: Processing standard module hook 'hook-pickle.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+2291 INFO: Processing standard module hook 'hook-math.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+2378 INFO: Processing standard module hook 'hook-difflib.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+2387 INFO: Processing standard module hook 'hook-heapq.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+4091 INFO: Caching module dependency graph...
+4114 INFO: Analyzing E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\launcher_os.py
+4146 INFO: Processing standard module hook 'hook-webbrowser.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+4185 INFO: Processing standard module hook 'hook-sysconfig.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+4188 INFO: Processing standard module hook 'hook-_ctypes.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+4396 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+4396 INFO: SetuptoolsInfo: initializing cached setuptools info...
+4982 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+5044 INFO: Processing standard module hook 'hook-xml.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+5729 INFO: Processing standard module hook 'hook-cryptography.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+6670 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+6923 INFO: Processing standard module hook 'hook-bcrypt.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+6987 INFO: Processing standard module hook 'hook-platform.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+7540 INFO: Processing standard module hook 'hook-jinja2.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+8199 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8199 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+8206 INFO: Processing standard module hook 'hook-sqlite3.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+8460 INFO: Processing standard module hook 'hook-sqlalchemy.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+12184 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12185 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+12476 INFO: Processing standard module hook 'hook-mako.codegen.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+12558 INFO: Processing standard module hook 'hook-pygments.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+13935 INFO: Processing standard module hook 'hook-zoneinfo.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14677 INFO: Processing standard module hook 'hook-psycopg2.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+14941 INFO: Processing standard module hook 'hook-urllib3.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+15021 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+15022 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+15306 INFO: Processing standard module hook 'hook-certifi.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+15347 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+15912 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+16246 INFO: Processing standard module hook 'hook-limits.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+16520 INFO: Processing pre-safe-import-module hook 'hook-ordered_set.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+16986 INFO: Processing standard module hook 'hook-reportlab.pdfbase._fontdata.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+17335 INFO: Processing standard module hook 'hook-reportlab.lib.utils.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+18775 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+18903 INFO: Analyzing hidden import 'app.services.audit_service'
+18905 INFO: Analyzing hidden import 'app.tasks'
+18906 INFO: Analyzing hidden import 'app.tasks.cron_jobs'
+18910 INFO: Analyzing hidden import 'app.tasks.scheduler'
+18912 INFO: Processing standard module hook 'hook-apscheduler.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+19265 INFO: Analyzing hidden import 'sqlalchemy.dialects.sqlite'
+19322 INFO: Analyzing hidden import 'engineio.async_drivers.threading'
+19324 INFO: Analyzing hidden import 'apscheduler.triggers.cron'
+19342 INFO: Analyzing hidden import 'apscheduler.triggers.interval'
+19346 INFO: Processing module hooks (post-graph stage)...
+19403 WARNING: Hidden import "mx.DateTime" not found!
+20723 INFO: Processing standard module hook 'hook-sqlalchemy.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+21053 WARNING: Hidden import "pysqlite2" not found!
+21053 WARNING: Hidden import "MySQLdb" not found!
+21163 INFO: Processing standard module hook 'hook-tzdata.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+21765 INFO: Performing binary vs. data reclassification (769 entries)
+21851 INFO: Looking for ctypes DLLs
+21899 INFO: Analyzing run-time hooks ...
+21903 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+21905 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+21906 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+21908 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+21928 INFO: Creating base_library.zip...
+21940 INFO: Looking for dynamic libraries
+23164 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\psycopg2_binary.libs']
+23164 INFO: Extra DLL search directories (PATH): []
+23549 INFO: Warnings written to E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\app\vinta_os\warn-vinta_os.txt
+23619 INFO: Graph cross-reference written to E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\app\vinta_os\xref-vinta_os.html
+23657 INFO: checking PYZ
+23657 INFO: Building PYZ because PYZ-00.toc is non existent
+23657 INFO: Building PYZ (ZlibArchive) E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\app\vinta_os\PYZ-00.pyz
+24262 INFO: Building PYZ (ZlibArchive) E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\app\vinta_os\PYZ-00.pyz completed successfully.
+24286 INFO: checking PKG
+24286 INFO: Building PKG because PKG-00.toc is non existent
+24286 INFO: Building PKG (CArchive) Vinta OS.pkg
+24321 INFO: Building PKG (CArchive) Vinta OS.pkg completed successfully.
+24322 INFO: Bootloader E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\.buildenv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\run.exe
+24322 INFO: checking EXE
+24322 INFO: Building EXE because EXE-00.toc is non existent
+24322 INFO: Building EXE from EXE-00.toc
+24322 INFO: Copying bootloader EXE to E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\app\vinta_os\Vinta OS.exe
+24383 INFO: Copying icon to EXE
+24424 INFO: Copying version information to EXE
+24453 INFO: Copying 0 resources to EXE
+24453 INFO: Embedding manifest in EXE
+24494 INFO: Appending PKG archive to EXE
+24549 INFO: Fixing EXE headers
+24823 INFO: Building EXE from EXE-00.toc completed successfully.
+24827 INFO: checking COLLECT
+24827 INFO: Building COLLECT because COLLECT-00.toc is non existent
+24827 INFO: Building COLLECT COLLECT-00.toc
+25384 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+25395 INFO: Build complete! The results are available in: E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\app
+
+==> Uninstaller: building
+  $ E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\.buildenv\Scripts\python.exe -m PyInstaller E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\uninstall.spec --noconfirm --clean --distpath E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\bin --workpath E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\uninstall
+109 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+109 INFO: Python: 3.14.6
+127 INFO: Platform: Windows-11-10.0.26200-SP0
+127 INFO: Python environment: E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\.buildenv
+130 INFO: Removing temporary files and cleaning cache in C:\Users\nekka\AppData\Local\pyinstaller
+133 INFO: Module search paths (PYTHONPATH):
+['E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\python314.zip',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\DLLs',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\Lib',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314',
+ 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv',
+ 'E:\\vinta-os-1.6.3.2-main '
+ '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages',
+ 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit']
+373 INFO: checking Analysis
+373 INFO: Building Analysis because Analysis-00.toc is non existent
+373 INFO: Looking for Python shared library...
+373 INFO: Using Python shared library: C:\Users\nekka\AppData\Local\Programs\Python\Python314\python314.dll
+373 INFO: Running Analysis Analysis-00.toc
+373 INFO: Target bytecode optimization level: 0
+373 INFO: Initializing module dependency graph...
+374 INFO: Initializing module graph hook caches...
+381 INFO: Analyzing modules for base_library.zip ...
+1536 INFO: Processing standard module hook 'hook-encodings.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+1858 INFO: Processing standard module hook 'hook-math.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+2744 INFO: Processing standard module hook 'hook-difflib.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+2752 INFO: Processing standard module hook 'hook-heapq.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+2824 INFO: Processing standard module hook 'hook-pickle.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+3813 INFO: Caching module dependency graph...
+3835 INFO: Analyzing E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\uninstall.py
+3870 INFO: Processing standard module hook 'hook-sysconfig.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+3874 INFO: Processing standard module hook 'hook-_ctypes.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+3887 INFO: Processing module hooks (post-graph stage)...
+3896 INFO: Performing binary vs. data reclassification (1 entries)
+3897 INFO: Looking for ctypes DLLs
+3904 INFO: Analyzing run-time hooks ...
+3904 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+3908 INFO: Creating base_library.zip...
+3918 INFO: Looking for dynamic libraries
+4034 INFO: Extra DLL search directories (AddDllDirectory): []
+4034 INFO: Extra DLL search directories (PATH): []
+4210 INFO: Warnings written to E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\uninstall\uninstall\warn-uninstall.txt
+4219 INFO: Graph cross-reference written to E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\uninstall\uninstall\xref-uninstall.html
+4230 INFO: checking PYZ
+4230 INFO: Building PYZ because PYZ-00.toc is non existent
+4230 INFO: Building PYZ (ZlibArchive) E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\uninstall\uninstall\PYZ-00.pyz
+4304 INFO: Building PYZ (ZlibArchive) E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\uninstall\uninstall\PYZ-00.pyz completed successfully.
+4313 INFO: checking PKG
+4313 INFO: Building PKG because PKG-00.toc is non existent
+4313 INFO: Building PKG (CArchive) Uninstall.pkg
+4982 INFO: Building PKG (CArchive) Uninstall.pkg completed successfully.
+4983 INFO: Bootloader E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\.buildenv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\run.exe
+4983 INFO: checking EXE
+4983 INFO: Building EXE because EXE-00.toc is non existent
+4983 INFO: Building EXE from EXE-00.toc
+4984 INFO: Copying bootloader EXE to E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\bin\Uninstall.exe
+5034 INFO: Copying icon to EXE
+5075 INFO: Copying 0 resources to EXE
+5075 INFO: Embedding manifest in EXE
+5114 INFO: Appending PKG archive to EXE
+5155 INFO: Fixing EXE headers
+5392 INFO: Building EXE from EXE-00.toc completed successfully.
+5394 INFO: Build complete! The results are available in: E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\bin
+  Placed Uninstall.exe beside Vinta OS.exe.
+
+==> Installer: building Setup.exe
+  $ E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\.buildenv\Scripts\python.exe -m PyInstaller E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\setup.spec --noconfirm --clean --distpath E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\bin --workpath E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\setup
+111 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+112 INFO: Python: 3.14.6
+131 INFO: Platform: Windows-11-10.0.26200-SP0
+131 INFO: Python environment: E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\.buildenv
+133 INFO: Removing temporary files and cleaning cache in C:\Users\nekka\AppData\Local\pyinstaller
+136 INFO: Module search paths (PYTHONPATH):
+['E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\python314.zip',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\DLLs',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\Lib',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314',
+ 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv',
+ 'E:\\vinta-os-1.6.3.2-main '
+ '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages',
+ 'C:\\Users\\nekka\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages',
+ 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit']
+371 INFO: checking Analysis
+372 INFO: Building Analysis because Analysis-00.toc is non existent
+372 INFO: Looking for Python shared library...
+372 INFO: Using Python shared library: C:\Users\nekka\AppData\Local\Programs\Python\Python314\python314.dll
+372 INFO: Running Analysis Analysis-00.toc
+372 INFO: Target bytecode optimization level: 0
+372 INFO: Initializing module dependency graph...
+373 INFO: Initializing module graph hook caches...
+380 INFO: Analyzing modules for base_library.zip ...
+1660 INFO: Processing standard module hook 'hook-encodings.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+2026 INFO: Processing standard module hook 'hook-pickle.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+2084 INFO: Processing standard module hook 'hook-math.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+2181 INFO: Processing standard module hook 'hook-difflib.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+2192 INFO: Processing standard module hook 'hook-heapq.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+3938 INFO: Caching module dependency graph...
+3962 INFO: Analyzing E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\setup_boot.py
+4000 INFO: Processing standard module hook 'hook-sysconfig.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+4003 INFO: Processing standard module hook 'hook-_ctypes.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks'
+4016 INFO: Processing module hooks (post-graph stage)...
+4024 INFO: Performing binary vs. data reclassification (1 entries)
+4025 INFO: Looking for ctypes DLLs
+4031 INFO: Analyzing run-time hooks ...
+4032 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+4035 INFO: Creating base_library.zip...
+4046 INFO: Looking for dynamic libraries
+4163 INFO: Extra DLL search directories (AddDllDirectory): []
+4164 INFO: Extra DLL search directories (PATH): []
+4341 INFO: Warnings written to E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\setup\setup\warn-setup.txt
+4349 INFO: Graph cross-reference written to E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\setup\setup\xref-setup.html
+4359 INFO: checking PYZ
+4359 INFO: Building PYZ because PYZ-00.toc is non existent
+4359 INFO: Building PYZ (ZlibArchive) E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\setup\setup\PYZ-00.pyz
+4435 INFO: Building PYZ (ZlibArchive) E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_work\setup\setup\PYZ-00.pyz completed successfully.
+4443 INFO: checking PKG
+4443 INFO: Building PKG because PKG-00.toc is non existent
+4443 INFO: Building PKG (CArchive) Setup.pkg
+5128 INFO: Building PKG (CArchive) Setup.pkg completed successfully.
+5130 INFO: Bootloader E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\.buildenv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\run.exe
+5130 INFO: checking EXE
+5130 INFO: Building EXE because EXE-00.toc is non existent
+5130 INFO: Building EXE from EXE-00.toc
+5130 INFO: Copying bootloader EXE to E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\bin\Setup.exe
+5177 INFO: Copying icon to EXE
+5218 INFO: Copying 0 resources to EXE
+5218 INFO: Embedding manifest in EXE
+5247 INFO: Appending PKG archive to EXE
+5302 INFO: Fixing EXE headers
+5545 INFO: Building EXE from EXE-00.toc completed successfully.
+5547 INFO: Build complete! The results are available in: E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\bin
+
+==> Smoke test: does the frozen application actually run?
+  $ E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\app\Vinta OS\Vinta OS.exe --init-db --data-dir E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_smoke
+
+  Vinta OS 1.6.3 — database ready
+  File:   E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_smoke\vinta.db
+  Tables: 27
+
+  Database created: E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_smoke\vinta.db (272 KB)
+  API is up (/api/health -> ok)
+  Frontend is served at /
+  Deep links resolve (history-API fallback works)
+
+==> Assembling the USB kit
+
+==> Done
+  USB kit : E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\USB
+  Files   : 903
+  Size    : 79.5 MB
+    Setup.exe        9.4 MB
+
+  Copy the ENTIRE contents of that folder onto the USB stick.
+  At the school: open the stick, run Setup.exe, then double-click
+  "Vinta OS" on the Desktop.
+

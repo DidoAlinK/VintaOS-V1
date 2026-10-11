@@ -1,0 +1,75 @@
+
+=== Vinta OS USB kit verification ===
+
+  Kit: E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\USB
+
+-- Setup.exe -------------------------------------------------
+  [ok  ] Setup exits cleanly
+  [ok  ] Program installed
+  [ok  ] Runtime bundled (_internal)
+  [ok  ] Uninstaller installed
+  [ok  ] Database created in the records folder
+  [ok  ] Schema built (27 tables)
+  [ok  ]   table 'academies' present
+  [ok  ]   table 'users' present
+  [ok  ]   table 'students' present
+  [ok  ]   table 'teachers' present
+  [ok  ]   table 'classes' present
+  [ok  ] Shortcut points at the installed program
+
+-- The installed application ---------------------------------
+  [ok  ] Application starts and answers /api/health
+  [ok  ] Interface served at /
+  [ok  ] Deep link returns the app shell
+  [ok  ] Academy signup
+  [ok  ] Signup returns an academy ID
+  [ok  ] Owner creation
+  [ok  ] Login
+  [ok  ] Login returns a token
+  [ok  ] Authenticated request (/api/auth/me)
+  [ok  ] Profile picker lists the owner
+  [FAIL] PDF export works  -- 500 b'{"error":"Could not build the export"}\n'
+  [ok  ] CSV export works
+  [FAIL] Arabic PDF export works (shaping)  -- 500 b'{"error":"Could not build the export"}\n'
+  [ok  ] Students index reachable
+  [ok  ] Dashboard overview reachable
+
+-- Reinstall (the update path) -------------------------------
+  [ok  ] Setup can be run again over an existing install
+  [ok  ] Records survived the reinstall (login still works)
+
+-- Uninstall -------------------------------------------------
+  [FAIL] Uninstaller exits cleanly  -- exit 1
+
+==================================================================
+                        Vinta OS - uninstall                      
+==================================================================
+
+  Program : E:\vinta-os-1.6.3.2-main (1)\vinta-os-1.6.3.2-main\usb-kit\out\_verify\install
+  Records : C:\Users\nekka\AppData\Roaming\Vinta OS
+
+  Closing Vinta OS if it is running...
+  Shortcuts removed: 2
+  Removed from Add/Remove Programs.
+  Deleting the program files...
+  ! Some files could not be deleted:
+
+[WinError 5] Access is denied: 'E:\\vinta-os-1.6.3.2-main (1)\\vinta-os-1.6.3.2-main\\usb-kit\\out\\_verify\\install\\Uninstall.exe'
+
+Close Vinta OS and any open Explorer window showing the folder, then try again.
+
+  [FAIL] Program removed
+  [ok  ] Records kept by default
+
+==================================================================
+  28/32 checks passed
+  FAILED:
+    - PDF export works  500 b'{"error":"Could not build the export"}\n'
+    - Arabic PDF export works (shaping)  500 b'{"error":"Could not build the export"}\n'
+    - Uninstaller exits cleanly  exit 1
+
+==================================================================
+                        Vinta OS - uninstall                      
+==========================================================
+    - Program removed  
+==================================================================

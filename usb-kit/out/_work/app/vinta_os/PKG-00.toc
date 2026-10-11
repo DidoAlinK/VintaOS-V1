@@ -1,0 +1,68 @@
+('E:\\vinta-os-1.6.3.2-main '
+ '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\out\\_work\\app\\vinta_os\\Vinta OS.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\out\\_work\\app\\vinta_os\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\out\\_work\\app\\vinta_os\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\out\\_work\\app\\vinta_os\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\out\\_work\\app\\vinta_os\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\out\\_work\\app\\vinta_os\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\out\\_work\\app\\vinta_os\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_cryptography_openssl',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\.buildenv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_cryptography_openssl.py',
+   'PYSOURCE'),
+  ('launcher_os',
+   'E:\\vinta-os-1.6.3.2-main '
+   '(1)\\vinta-os-1.6.3.2-main\\usb-kit\\launcher_os.py',
+   'PYSOURCE')],
+ 'python314.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

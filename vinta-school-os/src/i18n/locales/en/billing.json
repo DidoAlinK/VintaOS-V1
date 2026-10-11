@@ -1,0 +1,615 @@
+{
+  "page": {
+    "title": "Billing",
+    "subtitle": "Manage subscriptions, payouts, and payments",
+    "multiPay": "Multi-Teacher Payment",
+    "addPayout": "Add Payout",
+    "loading": "Loading billing data…",
+    "ownerOnly": {
+      "title": "Billing is owner-only",
+      "body": "This section holds the school's finances, so it opens for the owner account only. Ask the owner if you need a figure from it.",
+      "back": "Back to dashboard"
+    }
+  },
+  "tabs": {
+    "overview": "Overview",
+    "students": "Student Payments",
+    "teachers": "Teacher Payments",
+    "expenses": "School Expenses",
+    "reports": "Financial Reports"
+  },
+  "donut": {
+    "studentTuition": "Student Tuition",
+    "teacherPayroll": "Teacher Payroll",
+    "paid": "Paid",
+    "due": "Due",
+    "overdue": "Overdue",
+    "settled": "Settled",
+    "pending": "Pending"
+  },
+  "kpi": {
+    "monthIncome": "This month's income",
+    "totalEnrolled": "Total enrolled",
+    "financeBreakdown": "Finance breakdown",
+    "viewDetails": "View details →"
+  },
+  "grossProfit": {
+    "label": "Turn on calculating gross profit",
+    "on": "On — commission model visible, gross/cut math shown.",
+    "off": "Off — teachers paid per session formula, no gross/cut math."
+  },
+  "revenue": {
+    "title": "Revenue",
+    "property": {
+      "income": "Total Income",
+      "overdueCount": "Overdue Accounts"
+    },
+    "empty": {
+      "title": "No revenue data yet",
+      "body": "Data will appear here once billing records exist"
+    }
+  },
+  "income": {
+    "title": "Income by Week",
+    "period": {
+      "weekly": "Weekly",
+      "monthly": "Monthly"
+    },
+    "error": {
+      "load": "Could not load the income chart."
+    },
+    "empty": {
+      "title": "No payments recorded yet",
+      "body": "Weeks appear here as payments are confirmed."
+    }
+  },
+  "teacherPayments": {
+    "loading": "Loading teacher earnings…",
+    "error": {
+      "server": "Server error loading teacher earnings (500).",
+      "load": "Could not load teacher earnings."
+    },
+    "total": {
+      "owed": "Owed to teachers",
+      "settled": "Already paid",
+      "gross": "Gross collected"
+    },
+    "badge": {
+      "owed": "{{amount}} pending",
+      "allSettled": "All settled"
+    },
+    "unknownTeacher": "Unknown teacher",
+    "noGroups": "No groups recorded for this teacher.",
+    "group": {
+      "name": "Group",
+      "sessions": "Sessions",
+      "owed": "Pending",
+      "settled": "Paid",
+      "total": "Total",
+      "unnamed": "Unnamed group"
+    },
+    "due": {
+      "badge": "Due",
+      "since": "Due since {{date}}",
+      "title": "Payday has arrived"
+    },
+    "details": {
+      "action": "Details",
+      "title": "Payout details",
+      "loading": "Loading details…",
+      "error": "Could not load this teacher's details.",
+      "retry": "Try again",
+      "close": "Close",
+      "range": {
+        "label": "Period",
+        "all": "All time",
+        "thisMonth": "This month",
+        "lastMonth": "Last month",
+        "custom": "Custom",
+        "from": "From",
+        "to": "To"
+      },
+      "gross": "Revenue generated",
+      "cut": "Teacher's share",
+      "pending": "Still owed",
+      "paid": "Already settled",
+      "sessions": "Sessions taught",
+      "students": "Students taught",
+      "hours": "Hours taught",
+      "average": "Average per session",
+      "averageRevenue": "Average class revenue",
+      "manual": "Manual entries",
+      "groups": "Groups",
+      "cadence": "Payroll",
+      "next": "Next payday",
+      "nextNone": "None — settled by hand",
+      "export": "Export",
+      "exportCsv": "CSV",
+      "exportPdf": "PDF",
+      "exportFailed": "The file could not be produced.",
+      "groupsTitle": "By group",
+      "groupName": "Group",
+      "groupSessions": "Sessions",
+      "groupOwed": "Still owed",
+      "groupTotal": "Share",
+      "noGroups": "No groups in this period."
+    },
+    "empty": {
+      "title": "No teacher earnings yet",
+      "body": "Figures appear here once a session has been finalized as conducted."
+    }
+  },
+  "payoutSchedule": {
+    "weekday": {
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday",
+      "sat": "Saturday",
+      "sun": "Sunday"
+    },
+    "summary": {
+      "NONE": "Settled by hand",
+      "WEEKLY": "Every {{day}}",
+      "MONTHLY": "Day {{day}} of each month",
+      "INHERIT": "Follows the academy default"
+    }
+  },
+  "expenses": {
+    "heading": "School Expenses",
+    "subheading": "Money the school paid out — rent, supplies, bills.",
+    "loading": "Loading expenses…",
+    "add": "Add Expense",
+    "error": {
+      "server": "Server error loading expenses (500).",
+      "load": "Could not load expenses."
+    },
+    "kpi": {
+      "window": "Last 6 months",
+      "allTime": "All time",
+      "count": "Records"
+    },
+    "chart": {
+      "byCategory": "By Category",
+      "overTime": "Over Time",
+      "empty": "No expenses to chart yet.",
+      "legend": "Expenses"
+    },
+    "table": {
+      "date": "Date",
+      "description": "Description",
+      "category": "Category",
+      "quantity": "Qty",
+      "method": "Method",
+      "amount": "Amount"
+    },
+    "form": {
+      "createTitle": "Add Expense",
+      "editTitle": "Edit Expense",
+      "create": "Add",
+      "description": "Description",
+      "descriptionPlaceholder": "e.g. Printer paper",
+      "category": "Category",
+      "amount": "Amount (DA)",
+      "date": "Date",
+      "quantity": "Quantity",
+      "quantityPlaceholder": "Optional",
+      "method": "Payment method",
+      "vendor": "Vendor",
+      "vendorPlaceholder": "Optional",
+      "notes": "Notes",
+      "notesHint": "Optional",
+      "error": {
+        "label": "Give the expense a description.",
+        "amount": "Amount must be greater than zero.",
+        "date": "Pick a date.",
+        "quantity": "Quantity must be a whole number.",
+        "save": "Could not save the expense."
+      }
+    },
+    "delete": {
+      "title": "Delete this expense?",
+      "body": "{{label}} — {{amount}} will be removed from the school's expenses and from net profit. This cannot be undone.",
+      "deleting": "Deleting…"
+    },
+    "toast": {
+      "created": "Expense recorded",
+      "updated": "Expense updated",
+      "deleted": "Expense deleted",
+      "deleteFailed": "Could not delete the expense"
+    },
+    "category": {
+      "supplies": "Supplies",
+      "rent": "Rent",
+      "utilities": "Utilities",
+      "salaries": "Salaries",
+      "maintenance": "Maintenance",
+      "equipment": "Equipment",
+      "marketing": "Marketing",
+      "transport": "Transport",
+      "taxes": "Taxes",
+      "other": "Other",
+      "unknown": "Unknown"
+    },
+    "method": {
+      "cash": "Cash",
+      "ccp": "CCP",
+      "baridiMob": "Baridi Mob",
+      "bank": "Bank",
+      "other": "Other",
+      "unknown": "Unknown"
+    },
+    "empty": {
+      "title": "No expenses recorded",
+      "body": "Recorded expenses will appear here."
+    }
+  },
+  "split": {
+    "title": "Teacher / School Split",
+    "description": "The share of a session's revenue that goes to the teacher. The school keeps the remainder, and it is worked out from this number rather than stored beside it — so the two can never disagree.",
+    "teacherLabel": "Teacher share (%)",
+    "teacherHint": "A whole number from 0 to 100.",
+    "schoolLabel": "School share",
+    "derived": "calculated",
+    "schoolHint": "100% minus the teacher's share.",
+    "current": "Currently saved",
+    "currentValue": "{{teacher}}% teacher / {{school}}% school",
+    "save": "Save split",
+    "saved": "Teacher share updated",
+    "error": {
+      "whole": "Enter a whole number.",
+      "range": "Must be between 0 and 100.",
+      "save": "Could not save the split."
+    }
+  },
+  "reports": {
+    "loading": "Loading financial summary…",
+    "error": {
+      "server": "Server error loading the financial summary (500).",
+      "load": "Could not load the financial summary."
+    },
+    "kpi": {
+      "revenue": "Total revenue",
+      "teacherCost": "Teacher cost",
+      "teacherCostHint": "{{pending}} not yet paid out",
+      "expenses": "School expenses",
+      "net": "Net profit",
+      "netFormula": "Revenue − teacher cost − expenses"
+    },
+    "chart": {
+      "title": "Revenue, Costs and Net Profit",
+      "empty": {
+        "title": "Nothing to report yet",
+        "body": "Figures appear here once there are payments, payouts or expenses."
+      }
+    },
+    "series": {
+      "revenue": "Revenue",
+      "teacherCost": "Teacher cost",
+      "expense": "Expenses",
+      "net": "Net"
+    }
+  },
+  "breakdown": {
+    "title": "Finance Breakdown",
+    "tab": {
+      "students": "Students",
+      "teachers": "Teachers"
+    },
+    "aging": {
+      "days1to7": "1–7 Days",
+      "days8to30": "8–30 Days",
+      "days30plus": "30+ Days"
+    },
+    "summary": {
+      "overdue": "overdue",
+      "total": "total"
+    },
+    "table": {
+      "amount": "Amount",
+      "days": "Days"
+    },
+    "daysSuffix": "{{days}}d",
+    "unknownName": "Unknown",
+    "empty": {
+      "title": "No overdue accounts",
+      "students": "Overdue students will appear here",
+      "teachers": "Overdue teachers will appear here",
+      "bucket": "No overdue accounts in this range."
+    }
+  },
+  "subscriptions": {
+    "loading": "Loading subscriptions…",
+    "model": {
+      "credits": "Credits",
+      "time": "Time"
+    },
+    "status": {
+      "active": "Active",
+      "expired": "Expired",
+      "depleted": "Depleted",
+      "overdue": "Overdue",
+      "cancelled": "Cancelled",
+      "suspended": "Suspended",
+      "unknown": "Unknown",
+      "expiringSoon": "Expiring Soon",
+      "renewRequired": "Renew Required",
+      "attendanceWarning": "Attn Warning"
+    },
+    "table": {
+      "student": "Student",
+      "group": "Group",
+      "model": "Model",
+      "value": "Value",
+      "price": "Price",
+      "created": "Created"
+    },
+    "debt": {
+      "badge": "debt {{debt}}",
+      "tooltip": "Unpaid debt {{debt}} — pay N={{credits}} oldest-first → {{remaining}} remaining. Click to mark settled."
+    },
+    "void": {
+      "badge": "+{{credits}} void-restore",
+      "tooltip": "T7 void restore — THIS session's credit only"
+    },
+    "empty": {
+      "title": "No subscriptions yet",
+      "body": "Student subscriptions will appear here once created."
+    },
+    "error": {
+      "server": "Server error loading subscriptions (500).",
+      "load": "Could not load subscriptions.",
+      "notCleared": "Nothing was silently cleared."
+    },
+    "toast": {
+      "failedTitle": "Subscriptions failed to load",
+      "failedBody": "{{message}} Press Retry.",
+      "noDebt": {
+        "title": "No unpaid debt",
+        "body": "{{student}} — nothing to settle."
+      },
+      "settled": {
+        "title": "Debt settled oldest-first",
+        "body": "N={{n}} − debt {{debt}} → {{remaining}} remaining ({{cleared}} cleared).",
+        "bodyOwed": "N={{n}} − debt {{debt}} → {{remaining}} remaining, {{stillOwed}} still owed ({{cleared}} cleared)."
+      }
+    }
+  },
+  "payouts": {
+    "loading": "Loading payouts…",
+    "sectionTitle": "Confirm Payouts",
+    "sectionHint": "Settling a payout moves it from the pending column to the settled one above.",
+    "summary": {
+      "pending": "Total Pending",
+      "paid": "Total Paid",
+      "all": "Total All"
+    },
+    "column": {
+      "gross": "Gross",
+      "type": "Type",
+      "cut": "Cut"
+    },
+    "status": {
+      "pending": "Pending",
+      "paid": "Paid",
+      "unknown": "Unknown"
+    },
+    "records_one": "{{count}} record",
+    "records_other": "{{count}} records",
+    "markPaid": "Mark Paid",
+    "addPayout": "Add Payout",
+    "source": {
+      "manual": "Manual"
+    },
+    "grossOff": "Gross-profit math is off — turn it on in Billing to see gross/cut figures.",
+    "empty": {
+      "title": "No payout records",
+      "body": "Teacher payout records will appear here."
+    },
+    "basis": {
+      "percentage": "Percentage of revenue",
+      "hourly": "Per hour",
+      "fixedSession": "Per session",
+      "custom": "Custom amount"
+    },
+    "form": {
+      "title": "Record a Payout",
+      "subtitle": "Paying a teacher by hand — a bonus, a correction, an advance, or a lesson that was never marked conducted.",
+      "teacher": "Teacher",
+      "teacherPlaceholder": "Select a teacher…",
+      "teacherSearch": "Search teachers…",
+      "teachersLoading": "Loading teachers…",
+      "noTeachers": "No teachers in this academy yet.",
+      "teacherDefault": "Their saved arrangement: {{basis}} · {{value}}",
+      "teacherNoDefault": "No commission arrangement saved for this teacher.",
+      "stats": {
+        "label": "Their recorded total:",
+        "loading": "Checking their records…",
+        "none": "Nothing recorded for them yet — enter the figures yourself.",
+        "sessions_one": "{{count}} session",
+        "sessions_other": "{{count}} sessions",
+        "hours": "{{hours}} h",
+        "revenue": "{{amount}} generated"
+      },
+      "basis": "Basis",
+      "gross": "Session revenue (DA)",
+      "grossHint": "What the class brought in.",
+      "ratePercent": "Teacher's share (%)",
+      "ratePercentHint": "A whole number from 0 to 100.",
+      "hours": "Hours worked",
+      "hoursHint": "Half hours are fine — e.g. 1.5",
+      "rateHour": "Rate per hour (DA)",
+      "rateHourHint": "What one hour of teaching earns.",
+      "rateSession": "Amount per session (DA)",
+      "rateSessionHint": "A flat figure for the session, whatever it brought in.",
+      "amount": "Amount (DA)",
+      "amountHint": "The exact amount to pay.",
+      "preview": "Payout",
+      "date": "Date",
+      "datePlaceholder": "Today",
+      "notes": "Note",
+      "notesPlaceholder": "e.g. End-of-term bonus",
+      "notesHint": "Kept with the record and shown in the payment archive.",
+      "status": "Status",
+      "statusPaid": "Record as paid",
+      "statusPaidHint": "The money has already been handed over.",
+      "statusPending": "Leave pending",
+      "statusPendingHint": "Owed, and settled later from the payout list.",
+      "pinStep": "Owner PIN",
+      "pinIncomplete": "Enter all 4 digits of the owner PIN.",
+      "pinIncorrect": "Incorrect PIN. Try again.",
+      "submit": "Record payout",
+      "submitting": "Recording…",
+      "cancel": "Cancel",
+      "error": {
+        "failed": "Could not record the payout.",
+        "sessionExpired": "Session expired. Sign in again — the payout was not recorded."
+      },
+      "toast": {
+        "paid": {
+          "title": "Payout recorded as paid"
+        },
+        "pending": {
+          "title": "Payout left pending"
+        },
+        "body": "{{teacher}} — {{amount}}"
+      }
+    },
+    "pin": {
+      "title": "Confirm Payout",
+      "prompt": "Enter 4-digit PIN to confirm",
+      "incorrect": "Incorrect PIN. Try again.",
+      "processing": "Processing…",
+      "digit": "PIN digit {{index}}"
+    }
+  },
+  "multiPay": {
+    "title": "Multi-Teacher Payment",
+    "step": {
+      "student": "1. Select Student",
+      "items": "2. Payment Items",
+      "method": "3. Payment Method",
+      "pin": "4. PIN Verification"
+    },
+    "change": "Change",
+    "searchPlaceholder": "Search student by name…",
+    "empty": "Click \"Add\" to add a payment line",
+    "selectGroup": "Select group…",
+    "amountPlaceholder": "Amount",
+    "line": {
+      "debtPreview": "Debt {{debt}} + pay N={{n}} → {{remaining}} remaining (oldest first)"
+    },
+    "method": {
+      "cash": "Cash",
+      "ccp": "CCP",
+      "baridiMob": "Baridi Mob"
+    },
+    "pin": {
+      "incomplete": "Enter all 4 digits of the owner PIN.",
+      "incorrect": "Incorrect PIN. Try again.",
+      "digit": "PIN digit {{index}}"
+    },
+    "error": {
+      "failed": "Payment failed",
+      "sessionExpired": "Session expired. Sign in again — the payment was not recorded."
+    },
+    "submit": {
+      "pay": "Pay {{amount}}",
+      "processing": "Processing…"
+    },
+    "toast": {
+      "settled": {
+        "title": "Debt settled oldest-first",
+        "line": "{{cleared}} cleared → {{remaining}} left (N={{n}})"
+      },
+      "previewFailed": {
+        "title": "Payment recorded, debt preview failed",
+        "body": "Reopen Billing to settle unpaid rows."
+      }
+    }
+  },
+  "records": {
+    "title": "Payment Records",
+    "subtitle": "Every payment, payout and expense this academy has ever recorded.",
+    "openArchive": "Payment records",
+    "loading": "Loading records…",
+    "retry": "Try again",
+    "export": "Export",
+    "exporting": "Preparing…",
+    "exportTitle": "Export Billing Records",
+    "exportHint": "Choose what to include, then the file format. The whole range is exported, not just what fits on screen.",
+    "close": "Close",
+    "noDate": "No date",
+    "noProfile": "—",
+    "showing": "Showing the first {{shown}} of {{total}} records — export for the full list.",
+    "count_one": "{{count}} record",
+    "count_other": "{{count}} records",
+    "totals": {
+      "in": "Money in",
+      "out": "Money out",
+      "net": "Net"
+    },
+    "type": {
+      "studentPayment": "Student payment",
+      "teacherPayout": "Teacher payout",
+      "expense": "Expense"
+    },
+    "profileType": {
+      "student": "Student",
+      "teacher": "Teacher"
+    },
+    "source": {
+      "manual": "Manual"
+    },
+    "preset": {
+      "all": "All time",
+      "thisMonth": "This month",
+      "lastMonth": "Last month",
+      "last3Months": "Last 3 months",
+      "thisYear": "This year"
+    },
+    "filters": {
+      "toggle": "Filters",
+      "custom": "Custom range",
+      "range": "Date range",
+      "from": "From",
+      "to": "To",
+      "anyDate": "Any date",
+      "rangeReversed": "The “from” date is after the “to” date.",
+      "profile": "Profile",
+      "profilePlaceholder": "Search student or teacher…",
+      "clearProfile": "Clear the chosen profile",
+      "type": "Type",
+      "allTypes": "All types",
+      "minAmount": "Min amount (DA)",
+      "maxAmount": "Max amount (DA)",
+      "clear": "Clear filters"
+    },
+    "format": {
+      "label": "Format",
+      "csv": "CSV",
+      "csvHint": "Opens in Excel or Google Sheets. Best for doing your own sums.",
+      "pdf": "PDF",
+      "pdfHint": "A printable document. Best for filing or sending."
+    },
+    "error": {
+      "load": "Could not load the records.",
+      "invalidFilters": "Those filters are not valid — check the date range and the amounts.",
+      "exportFailed": "Could not build the file."
+    },
+    "empty": {
+      "title": "No records found",
+      "body": "Nothing matches these filters. Try a wider date range."
+    },
+    "toast": {
+      "exported": {
+        "title": "Export ready"
+      },
+      "exportFailed": {
+        "title": "Export failed",
+        "body": "The file could not be created. Try again, or with a smaller date range."
+      }
+    }
+  }
+}

@@ -1,0 +1,615 @@
+{
+  "page": {
+    "title": "Facturation",
+    "subtitle": "Gérez les abonnements, les versements et les paiements",
+    "multiPay": "Paiement multi-enseignants",
+    "loading": "Chargement des données de facturation…",
+    "ownerOnly": {
+      "title": "La facturation est réservée au propriétaire",
+      "body": "Cette section contient les finances de l'école ; elle ne s'ouvre que pour le compte propriétaire. Demandez au propriétaire le chiffre dont vous avez besoin.",
+      "back": "Retour au tableau de bord"
+    },
+    "addPayout": "Ajouter un versement"
+  },
+  "tabs": {
+    "overview": "Vue d'ensemble",
+    "students": "Paiements élèves",
+    "teachers": "Paiements enseignants",
+    "expenses": "Dépenses de l'école",
+    "reports": "Rapports financiers"
+  },
+  "donut": {
+    "studentTuition": "Frais de scolarité",
+    "teacherPayroll": "Paie des enseignants",
+    "paid": "Payé",
+    "due": "Dû",
+    "overdue": "En retard",
+    "settled": "Réglé",
+    "pending": "En attente"
+  },
+  "kpi": {
+    "monthIncome": "Revenus du mois",
+    "totalEnrolled": "Total inscrits",
+    "financeBreakdown": "Répartition financière",
+    "viewDetails": "Voir le détail →"
+  },
+  "grossProfit": {
+    "label": "Activer le calcul de la marge brute",
+    "on": "Activé — modèle de commission visible, calcul marge/part affiché.",
+    "off": "Désactivé — enseignants payés à la séance, sans calcul marge/part."
+  },
+  "revenue": {
+    "title": "Revenus",
+    "property": {
+      "income": "Revenu total",
+      "overdueCount": "Comptes en retard"
+    },
+    "empty": {
+      "title": "Aucune donnée de revenus",
+      "body": "Les données apparaîtront ici dès que des écritures de facturation existeront."
+    }
+  },
+  "income": {
+    "title": "Revenus par semaine",
+    "period": {
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuel"
+    },
+    "error": {
+      "load": "Impossible de charger le graphique des revenus."
+    },
+    "empty": {
+      "title": "Aucun paiement enregistré",
+      "body": "Les semaines apparaissent ici au fur et à mesure des paiements confirmés."
+    }
+  },
+  "teacherPayments": {
+    "loading": "Chargement des gains des enseignants…",
+    "error": {
+      "server": "Erreur serveur lors du chargement des gains des enseignants (500).",
+      "load": "Impossible de charger les gains des enseignants."
+    },
+    "total": {
+      "owed": "Dû aux enseignants",
+      "settled": "Déjà versé",
+      "gross": "Encaissé brut"
+    },
+    "badge": {
+      "owed": "{{amount}} en attente",
+      "allSettled": "Tout réglé"
+    },
+    "unknownTeacher": "Enseignant inconnu",
+    "noGroups": "Aucune classe enregistrée pour cet enseignant.",
+    "group": {
+      "name": "Classe",
+      "sessions": "Séances",
+      "owed": "En attente",
+      "settled": "Payé",
+      "total": "Total",
+      "unnamed": "Classe sans nom"
+    },
+    "due": {
+      "badge": "À payer",
+      "since": "Dû depuis le {{date}}",
+      "title": "Le jour de paie est arrivé"
+    },
+    "details": {
+      "action": "Détails",
+      "title": "Détails des versements",
+      "loading": "Chargement des détails…",
+      "error": "Impossible de charger les détails de cet enseignant.",
+      "retry": "Réessayer",
+      "close": "Fermer",
+      "range": {
+        "label": "Période",
+        "all": "Tout l'historique",
+        "thisMonth": "Ce mois-ci",
+        "lastMonth": "Le mois dernier",
+        "custom": "Personnalisé",
+        "from": "Du",
+        "to": "Au"
+      },
+      "gross": "Revenus générés",
+      "cut": "Part de l'enseignant",
+      "pending": "Reste à verser",
+      "paid": "Déjà réglé",
+      "sessions": "Séances assurées",
+      "students": "Élèves encadrés",
+      "hours": "Heures assurées",
+      "average": "Moyenne par séance",
+      "averageRevenue": "Revenu moyen par séance",
+      "manual": "Écritures manuelles",
+      "groups": "Groupes",
+      "cadence": "Paie",
+      "next": "Prochaine paie",
+      "nextNone": "Aucune — réglé à la main",
+      "export": "Exporter",
+      "exportCsv": "CSV",
+      "exportPdf": "PDF",
+      "exportFailed": "Le fichier n'a pas pu être généré.",
+      "groupsTitle": "Par groupe",
+      "groupName": "Groupe",
+      "groupSessions": "Séances",
+      "groupOwed": "Reste à verser",
+      "groupTotal": "Part",
+      "noGroups": "Aucun groupe sur cette période."
+    },
+    "empty": {
+      "title": "Aucun gain enseignant",
+      "body": "Les chiffres apparaissent dès qu'une séance est finalisée comme tenue."
+    }
+  },
+  "payoutSchedule": {
+    "weekday": {
+      "mon": "Lundi",
+      "tue": "Mardi",
+      "wed": "Mercredi",
+      "thu": "Jeudi",
+      "fri": "Vendredi",
+      "sat": "Samedi",
+      "sun": "Dimanche"
+    },
+    "summary": {
+      "NONE": "Réglé à la main",
+      "WEEKLY": "Chaque {{day}}",
+      "MONTHLY": "Le {{day}} de chaque mois",
+      "INHERIT": "Suit la valeur de l'académie"
+    }
+  },
+  "expenses": {
+    "heading": "Dépenses de l'école",
+    "subheading": "L'argent décaissé par l'école — loyer, fournitures, factures.",
+    "loading": "Chargement des dépenses…",
+    "add": "Ajouter une dépense",
+    "error": {
+      "server": "Erreur serveur lors du chargement des dépenses (500).",
+      "load": "Impossible de charger les dépenses."
+    },
+    "kpi": {
+      "window": "6 derniers mois",
+      "allTime": "Depuis le début",
+      "count": "Écritures"
+    },
+    "chart": {
+      "byCategory": "Par catégorie",
+      "overTime": "Dans le temps",
+      "empty": "Aucune dépense à afficher pour l'instant.",
+      "legend": "Dépenses"
+    },
+    "table": {
+      "date": "Date",
+      "description": "Description",
+      "category": "Catégorie",
+      "quantity": "Qté",
+      "method": "Moyen",
+      "amount": "Montant"
+    },
+    "form": {
+      "createTitle": "Ajouter une dépense",
+      "editTitle": "Modifier la dépense",
+      "create": "Ajouter",
+      "description": "Description",
+      "descriptionPlaceholder": "ex. papier d'imprimante",
+      "category": "Catégorie",
+      "amount": "Montant (DA)",
+      "date": "Date",
+      "quantity": "Quantité",
+      "quantityPlaceholder": "Facultatif",
+      "method": "Mode de paiement",
+      "vendor": "Fournisseur",
+      "vendorPlaceholder": "Facultatif",
+      "notes": "Notes",
+      "notesHint": "Facultatif",
+      "error": {
+        "label": "Donnez une description à la dépense.",
+        "amount": "Le montant doit être supérieur à zéro.",
+        "date": "Choisissez une date.",
+        "quantity": "La quantité doit être un nombre entier.",
+        "save": "Impossible d'enregistrer la dépense."
+      }
+    },
+    "delete": {
+      "title": "Supprimer cette dépense ?",
+      "body": "{{label}} — {{amount}} sera retiré des dépenses de l'école et du bénéfice net. Cette action est irréversible.",
+      "deleting": "Suppression…"
+    },
+    "toast": {
+      "created": "Dépense enregistrée",
+      "updated": "Dépense mise à jour",
+      "deleted": "Dépense supprimée",
+      "deleteFailed": "Impossible de supprimer la dépense"
+    },
+    "category": {
+      "supplies": "Fournitures",
+      "rent": "Loyer",
+      "utilities": "Charges",
+      "salaries": "Salaires",
+      "maintenance": "Entretien",
+      "equipment": "Équipement",
+      "marketing": "Marketing",
+      "transport": "Transport",
+      "taxes": "Taxes",
+      "other": "Autre",
+      "unknown": "Inconnu"
+    },
+    "method": {
+      "cash": "Espèces",
+      "ccp": "CCP",
+      "baridiMob": "Baridi Mob",
+      "bank": "Banque",
+      "other": "Autre",
+      "unknown": "Inconnu"
+    },
+    "empty": {
+      "title": "Aucune dépense enregistrée",
+      "body": "Les dépenses enregistrées apparaîtront ici."
+    }
+  },
+  "split": {
+    "title": "Répartition enseignant / école",
+    "description": "La part des revenus d'une séance qui revient à l'enseignant. L'école garde le reste, calculé à partir de ce nombre plutôt que stocké à côté — les deux ne peuvent donc pas diverger.",
+    "teacherLabel": "Part de l'enseignant (%)",
+    "teacherHint": "Un nombre entier de 0 à 100.",
+    "schoolLabel": "Part de l'école",
+    "derived": "calculée",
+    "schoolHint": "100 % moins la part de l'enseignant.",
+    "current": "Actuellement enregistré",
+    "currentValue": "{{teacher}} % enseignant / {{school}} % école",
+    "save": "Enregistrer la répartition",
+    "saved": "Part de l'enseignant mise à jour",
+    "error": {
+      "whole": "Saisissez un nombre entier.",
+      "range": "Doit être compris entre 0 et 100.",
+      "save": "Impossible d'enregistrer la répartition."
+    }
+  },
+  "reports": {
+    "loading": "Chargement du résumé financier…",
+    "error": {
+      "server": "Erreur serveur lors du chargement du résumé financier (500).",
+      "load": "Impossible de charger le résumé financier."
+    },
+    "kpi": {
+      "revenue": "Revenus totaux",
+      "teacherCost": "Coût enseignants",
+      "teacherCostHint": "{{pending}} pas encore versés",
+      "expenses": "Dépenses de l'école",
+      "net": "Bénéfice net",
+      "netFormula": "Revenus − coût enseignants − dépenses"
+    },
+    "chart": {
+      "title": "Revenus, coûts et bénéfice net",
+      "empty": {
+        "title": "Rien à afficher pour l'instant",
+        "body": "Les chiffres apparaissent dès qu'il y a des paiements, des versements ou des dépenses."
+      }
+    },
+    "series": {
+      "revenue": "Revenus",
+      "teacherCost": "Coût enseignants",
+      "expense": "Dépenses",
+      "net": "Net"
+    }
+  },
+  "breakdown": {
+    "title": "Répartition financière",
+    "tab": {
+      "students": "Élèves",
+      "teachers": "Enseignants"
+    },
+    "aging": {
+      "days1to7": "1–7 jours",
+      "days8to30": "8–30 jours",
+      "days30plus": "30+ jours"
+    },
+    "summary": {
+      "overdue": "en retard",
+      "total": "au total"
+    },
+    "table": {
+      "amount": "Montant",
+      "days": "Jours"
+    },
+    "daysSuffix": "{{days}} j",
+    "unknownName": "Inconnu",
+    "empty": {
+      "title": "Aucun compte en retard",
+      "students": "Les élèves en retard apparaîtront ici",
+      "teachers": "Les enseignants en retard apparaîtront ici",
+      "bucket": "Aucun compte en retard dans cette tranche."
+    }
+  },
+  "subscriptions": {
+    "loading": "Chargement des abonnements…",
+    "model": {
+      "credits": "Crédits",
+      "time": "Temps"
+    },
+    "status": {
+      "active": "Actif",
+      "expired": "Expiré",
+      "depleted": "Épuisé",
+      "overdue": "En retard",
+      "cancelled": "Annulé",
+      "suspended": "Suspendu",
+      "unknown": "Inconnu",
+      "expiringSoon": "Expire bientôt",
+      "renewRequired": "Renouvellement requis",
+      "attendanceWarning": "Alerte présence"
+    },
+    "table": {
+      "student": "Élève",
+      "group": "Classe",
+      "model": "Modèle",
+      "value": "Valeur",
+      "price": "Prix",
+      "created": "Créé le"
+    },
+    "debt": {
+      "badge": "dette {{debt}}",
+      "tooltip": "Dette impayée {{debt}} — payez N={{credits}} du plus ancien au plus récent → {{remaining}} restant. Cliquez pour marquer comme réglé."
+    },
+    "void": {
+      "badge": "+{{credits}} restitués",
+      "tooltip": "Restauration T7 — crédit de cette séance uniquement"
+    },
+    "empty": {
+      "title": "Aucun abonnement",
+      "body": "Les abonnements des élèves apparaîtront ici une fois créés."
+    },
+    "error": {
+      "server": "Erreur serveur lors du chargement des abonnements (500).",
+      "load": "Impossible de charger les abonnements.",
+      "notCleared": "Aucune donnée n'a été effacée en silence."
+    },
+    "toast": {
+      "failedTitle": "Échec du chargement des abonnements",
+      "failedBody": "{{message}} Appuyez sur Réessayer.",
+      "noDebt": {
+        "title": "Aucune dette impayée",
+        "body": "{{student}} — rien à régler."
+      },
+      "settled": {
+        "title": "Dette réglée, du plus ancien au plus récent",
+        "body": "N={{n}} − dette {{debt}} → {{remaining}} restant ({{cleared}} réglés).",
+        "bodyOwed": "N={{n}} − dette {{debt}} → {{remaining}} restant, {{stillOwed}} encore dus ({{cleared}} réglés)."
+      }
+    }
+  },
+  "payouts": {
+    "loading": "Chargement des versements…",
+    "sectionTitle": "Confirmer les versements",
+    "sectionHint": "Régler un versement le fait passer de la colonne en attente à la colonne réglée ci-dessus.",
+    "summary": {
+      "pending": "Total en attente",
+      "paid": "Total payé",
+      "all": "Total général"
+    },
+    "column": {
+      "gross": "Brut",
+      "type": "Type",
+      "cut": "Part"
+    },
+    "status": {
+      "pending": "En attente",
+      "paid": "Payé",
+      "unknown": "Inconnu"
+    },
+    "records_one": "{{count}} écriture",
+    "records_other": "{{count}} écritures",
+    "markPaid": "Marquer payé",
+    "grossOff": "Le calcul de la marge brute est désactivé — activez-le dans Facturation pour voir les montants bruts et les parts.",
+    "empty": {
+      "title": "Aucun versement",
+      "body": "Les versements aux enseignants apparaîtront ici."
+    },
+    "pin": {
+      "title": "Confirmer le versement",
+      "prompt": "Saisissez le code PIN à 4 chiffres pour confirmer",
+      "incorrect": "Code PIN incorrect. Réessayez.",
+      "processing": "Traitement…",
+      "digit": "Chiffre {{index}} du code PIN"
+    },
+    "addPayout": "Ajouter un versement",
+    "source": {
+      "manual": "Manuel"
+    },
+    "basis": {
+      "percentage": "Pourcentage du chiffre d'affaires",
+      "hourly": "Par heure",
+      "fixedSession": "Par séance",
+      "custom": "Montant libre"
+    },
+    "form": {
+      "title": "Enregistrer un versement",
+      "subtitle": "Payer un enseignant à la main — une prime, une correction, une avance, ou une séance jamais marquée comme effectuée.",
+      "teacher": "Enseignant",
+      "teacherPlaceholder": "Choisir un enseignant…",
+      "teacherSearch": "Rechercher un enseignant…",
+      "teachersLoading": "Chargement des enseignants…",
+      "noTeachers": "Aucun enseignant dans cette académie pour l'instant.",
+      "teacherDefault": "Son arrangement enregistré : {{basis}} · {{value}}",
+      "teacherNoDefault": "Aucun arrangement de commission enregistré pour cet enseignant.",
+      "stats": {
+        "label": "Son total enregistré :",
+        "loading": "Vérification de son historique…",
+        "none": "Rien d'enregistré pour l'instant — saisissez les chiffres vous-même.",
+        "sessions_one": "{{count}} séance",
+        "sessions_other": "{{count}} séances",
+        "hours": "{{hours}} h",
+        "revenue": "{{amount}} générés"
+      },
+      "basis": "Base de calcul",
+      "gross": "Recettes de la séance (DA)",
+      "grossHint": "Ce que le cours a rapporté.",
+      "ratePercent": "Part de l'enseignant (%)",
+      "ratePercentHint": "Un nombre entier de 0 à 100.",
+      "hours": "Heures travaillées",
+      "hoursHint": "Les demi-heures sont acceptées — ex. 1,5",
+      "rateHour": "Taux horaire (DA)",
+      "rateHourHint": "Ce qu'une heure d'enseignement rapporte.",
+      "rateSession": "Montant par séance (DA)",
+      "rateSessionHint": "Un montant fixe pour la séance, quel que soit ce qu'elle a rapporté.",
+      "amount": "Montant (DA)",
+      "amountHint": "Le montant exact à verser.",
+      "preview": "Versement",
+      "date": "Date",
+      "datePlaceholder": "Aujourd'hui",
+      "notes": "Note",
+      "notesPlaceholder": "ex. Prime de fin de trimestre",
+      "notesHint": "Conservée avec l'écriture et affichée dans les archives de paiement.",
+      "status": "Statut",
+      "statusPaid": "Enregistrer comme payé",
+      "statusPaidHint": "L'argent a déjà été remis.",
+      "statusPending": "Laisser en attente",
+      "statusPendingHint": "Dû, et réglé plus tard depuis la liste des versements.",
+      "pinStep": "Code PIN du propriétaire",
+      "pinIncomplete": "Saisissez les 4 chiffres du PIN du propriétaire.",
+      "pinIncorrect": "PIN incorrect. Réessayez.",
+      "submit": "Enregistrer le versement",
+      "submitting": "Enregistrement…",
+      "cancel": "Annuler",
+      "error": {
+        "failed": "Impossible d'enregistrer le versement.",
+        "sessionExpired": "Session expirée. Reconnectez-vous — le versement n'a pas été enregistré."
+      },
+      "toast": {
+        "paid": {
+          "title": "Versement enregistré comme payé"
+        },
+        "pending": {
+          "title": "Versement laissé en attente"
+        },
+        "body": "{{teacher}} — {{amount}}"
+      }
+    }
+  },
+  "multiPay": {
+    "title": "Paiement multi-enseignants",
+    "step": {
+      "student": "1. Sélectionner l'élève",
+      "items": "2. Lignes de paiement",
+      "method": "3. Mode de paiement",
+      "pin": "4. Vérification du PIN"
+    },
+    "change": "Modifier",
+    "searchPlaceholder": "Rechercher un élève par nom…",
+    "empty": "Cliquez sur « Ajouter » pour ajouter une ligne de paiement",
+    "selectGroup": "Sélectionner une classe…",
+    "amountPlaceholder": "Montant",
+    "line": {
+      "debtPreview": "Dette {{debt}} + paiement N={{n}} → {{remaining}} restant (du plus ancien au plus récent)"
+    },
+    "method": {
+      "cash": "Espèces",
+      "ccp": "CCP",
+      "baridiMob": "Baridi Mob"
+    },
+    "pin": {
+      "incomplete": "Saisissez les 4 chiffres du PIN du propriétaire.",
+      "incorrect": "Code PIN incorrect. Réessayez.",
+      "digit": "Chiffre {{index}} du code PIN"
+    },
+    "error": {
+      "failed": "Échec du paiement",
+      "sessionExpired": "Session expirée. Reconnectez-vous — le paiement n'a pas été enregistré."
+    },
+    "submit": {
+      "pay": "Payer {{amount}}",
+      "processing": "Traitement…"
+    },
+    "toast": {
+      "settled": {
+        "title": "Dette réglée, du plus ancien au plus récent",
+        "line": "{{cleared}} réglés → {{remaining}} restants (N={{n}})"
+      },
+      "previewFailed": {
+        "title": "Paiement enregistré, aperçu de la dette indisponible",
+        "body": "Rouvrez Facturation pour régler les lignes impayées."
+      }
+    }
+  },
+  "records": {
+    "title": "Écritures de paiement",
+    "subtitle": "Chaque paiement, versement et dépense jamais enregistré par cette académie.",
+    "openArchive": "Écritures de paiement",
+    "loading": "Chargement des écritures…",
+    "retry": "Réessayer",
+    "export": "Exporter",
+    "exporting": "Préparation…",
+    "exportTitle": "Exporter les écritures de paiement",
+    "exportHint": "Choisissez ce qu'il faut inclure, puis le format du fichier. Toute la plage est exportée, pas seulement ce qui tient à l'écran.",
+    "close": "Fermer",
+    "noDate": "Sans date",
+    "noProfile": "—",
+    "showing": "Affichage des {{shown}} premières écritures sur {{total}} — exportez pour la liste complète.",
+    "count_one": "{{count}} écriture",
+    "count_other": "{{count}} écritures",
+    "totals": {
+      "in": "Entrées",
+      "out": "Sorties",
+      "net": "Net"
+    },
+    "type": {
+      "studentPayment": "Paiement d'élève",
+      "teacherPayout": "Versement enseignant",
+      "expense": "Dépense"
+    },
+    "profileType": {
+      "student": "Élève",
+      "teacher": "Enseignant"
+    },
+    "source": {
+      "manual": "Manuel"
+    },
+    "preset": {
+      "all": "Tout l'historique",
+      "thisMonth": "Ce mois-ci",
+      "lastMonth": "Le mois dernier",
+      "last3Months": "3 derniers mois",
+      "thisYear": "Cette année"
+    },
+    "filters": {
+      "toggle": "Filtres",
+      "custom": "Plage personnalisée",
+      "range": "Plage de dates",
+      "from": "Du",
+      "to": "Au",
+      "anyDate": "Toute date",
+      "rangeReversed": "La date « du » est postérieure à la date « au ».",
+      "profile": "Profil",
+      "profilePlaceholder": "Rechercher un élève ou un enseignant…",
+      "clearProfile": "Effacer le profil choisi",
+      "type": "Type",
+      "allTypes": "Tous les types",
+      "minAmount": "Montant min. (DA)",
+      "maxAmount": "Montant max. (DA)",
+      "clear": "Effacer les filtres"
+    },
+    "format": {
+      "label": "Format",
+      "csv": "CSV",
+      "csvHint": "S'ouvre dans Excel ou Google Sheets. Idéal pour vos propres calculs.",
+      "pdf": "PDF",
+      "pdfHint": "Un document imprimable. Idéal pour classer ou envoyer."
+    },
+    "error": {
+      "load": "Impossible de charger les écritures.",
+      "invalidFilters": "Ces filtres ne sont pas valides — vérifiez la plage de dates et les montants.",
+      "exportFailed": "Impossible de générer le fichier."
+    },
+    "empty": {
+      "title": "Aucune écriture trouvée",
+      "body": "Rien ne correspond à ces filtres. Essayez une plage de dates plus large."
+    },
+    "toast": {
+      "exported": {
+        "title": "Export prêt"
+      },
+      "exportFailed": {
+        "title": "Échec de l'export",
+        "body": "Le fichier n'a pas pu être créé. Réessayez, ou avec une plage de dates plus courte."
+      }
+    }
+  }
+}
